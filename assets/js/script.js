@@ -13,4 +13,19 @@ $(document).ready(function(){
             
         }
     });
+
+    $('.cat-section h2').click(function(){
+        if($(this).hasClass('open')){
+            $('.cat-section h2').removeClass('open');
+            $('.fa-plus').show();
+            $('.fa-minus').hide();
+            $('.cat-section ul').slideUp();
+        }else{
+            $('.cat-section h2').addClass('open');
+            $('.fa-plus').hide();
+            $('.fa-minus').show();
+            $('.cat-section ul').slideDown();
+        }
+    });
+
 });
