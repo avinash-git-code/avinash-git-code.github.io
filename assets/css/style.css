@@ -260,6 +260,7 @@ body{
     .foot-sec p{text-align:center}
     .foot-sec{max-width:700px;margin-left: auto;margin-right:auto;margin-bottom:20px; padding-left:20px;padding-right:20px}
     .product-video-list{justify-content: center;}
+    .cat-section{display: none;}
 }
 @media(max-width:767px){
 
