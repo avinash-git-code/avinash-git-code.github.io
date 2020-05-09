@@ -11,10 +11,11 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link href="//fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap"> -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     <header>
@@ -39,37 +40,66 @@
                             <li><a href="">Contact</a></li>
                         </ul>
                     </div>
-                    <!-- search box -->
-                    <div class="flex-none">
-                        <form class="search-form">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <button title="Search" class="btn btn-search" type="button"><span class="fa fa-search"></span></button>
-                        </form>
-                    </div>
-                    <!-- search box -->
                 </div>
             </div>
             <!-- Top header section -->
             <!-- Stamp section -->
-            <div class="stamp-container">
+            <!-- <div class="stamp-container">
                 <div class="layout">
                     <a href="#" class="stamp">
                         <img src="assets/images/stamp.png" alt="Stamp">
                     </a>
                     <span class="share-link"><i class="fa fa-share-alt"></i></span>
                 </div>
-            </div>
+            </div> -->
             <!-- Stamp section -->
         </header>
         
+        <!-- slider section -->
+        <div class="sliderContainer">
+            <div class="layout">
+                <div class="slider single-item">
+                    <div><img src="assets/images/slider1.jpg" alt=""></div>
+                    <div><img src="assets/images/slider2.jpeg" alt=""></div>
+                    <div><img src="assets/images/slider3.jpeg" alt=""></div>
+                    <div><img src="assets/images/slider4.jpeg" alt=""></div>
+                    <!-- <div>
+                        <iframe class="embed-player slide-media" src="https://player.vimeo.com/video/217885864?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0&id=217885864" width="455" height="683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div> -->
+                </div>
+                <div class="progressBarContainer">
+                    <div>
+                        <!-- <h3>Slide 1</h3> -->
+                        <span data-slick-index="0" class="progressBar"></span>
+                    </div>
+                    <div>
+                        <!-- <h3>Slide 2</h3> -->
+                        <span data-slick-index="1" class="progressBar"></span>
+                    </div>
+                    <div>
+                        <!-- <h3>Slide 3</h3> -->
+                        <span data-slick-index="2" class="progressBar"></span>
+                    </div>
+                    <div>
+                        <!-- <h3>Slide 3</h3> -->
+                        <span data-slick-index="3" class="progressBar"></span>
+                    </div>
+                    <!-- <div>
+                        <span data-slick-index="4" class="progressBar"></span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- slider section -->
+
         <!-- Youtube player -->
-        <div class="youtube-container">
+        <!-- <div class="youtube-container">
             <div class="layout">
                 <div class="you-player">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/ERiwOBPKU_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Youtube player -->
 
         <!-- Category section -->
@@ -185,7 +215,7 @@
         <!-- Footer section -->
         <div class="footer-section">
 
-            <div class="layout foot-sec">
+                <div class="layout foot-sec">
                 <h6>about jiscovery</h6>
                 <p>
                     We are a Brand Discovery Platform that is
@@ -198,7 +228,15 @@
                     <a href=""><i class="fa fa-instagram"></i></a>
                     <a href=""><i class="fa fa-youtube-play"></i></a>
                 </div>
-            </div>
+                <!-- search box -->
+                <div class="flex-none">
+                    <form class="search-form">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button title="Search" class="btn btn-search" type="button"><span class="fa fa-search"></span></button>
+                    </form>
+                </div>
+                <!-- search box -->
+             </div>
             <!-- cat section -->
             <div class="cat-section">
                 <h2>category 
@@ -244,6 +282,7 @@
         <!-- Footer section -->
     </header>
     <script src="assets/js/jquery-3.5.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

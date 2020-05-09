@@ -1,8 +1,166 @@
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"), url("../fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2") format("woff2"), url("../fonts/Airbnb_Cereal-Medium-4bc8dafd2e0fd8914bf4d5edce9acd24.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2") format("woff2"), url("../fonts/Airbnb_Cereal-Bold-a188841af78481a25b7bb2316a5f5716.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0400-04FF;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Cyrillic-Book-e02d5d2c18cb1adb5f60fba73ec84b85.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Cyrillic-Book-c2fc5b3551254c57abcddb6ae3846011.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0400-04FF;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Cyrillic-Medium-f0e661ba5740e054d7c1faad5984c994.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Cyrillic-Medium-4e2e45a7189b6b9cf46bb33f5fe04c09.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0400-04FF;
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Cyrillic-Bold-b218e811576428a4ca3d2f9e1b00b734.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Cyrillic-Bold-82361954a2330f09187cfbccc2641ce9.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0590-05FF, U+FB00-FB4F;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Hebrew-Book-bfb9bf9044f18924e522d3e6076a47b3.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Hebrew-Book-892a3f9af9d7160255f294e56b3462f3.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0590-05FF, U+FB00-FB4F;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Hebrew-Medium-a9d129489532402b6c34cd92039341ef.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Hebrew-Medium-640ac52058359cd8dd430d9ad7d9c29e.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0590-05FF, U+FB00-FB4F;
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Hebrew-Bold-f5ec4bf512fae9f82edd69290cef53ff.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Hebrew-Bold-2825ca14347a2d0c257c0306165f448e.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0600-06FF, U+0750-077F;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Arabic-Book-a3069642fff439a4487060181f843c27.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Arabic-Book-6de797f6b9ddbf3ce640d1318a77d85e.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0600-06FF, U+0750-077F;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Arabic-Medium-726e07fb1271351070ed63c892598211.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Arabic-Medium-0ad3304a4ceb8b4ba992872376c6fee2.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+0600-06FF, U+0750-077F;
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/cereal-beta-v1/Airbnb_Cereal-Arabic-Bold-9129550a5028e0f85441bf1bbfacc1e4.woff2") format("woff2"), url("../fonts/cereal-beta-v1/Airbnb_Cereal-Arabic-Bold-16ec9f0279388cccbedb6a1d95ac4d9d.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+F0000-FFFFD;
+    font-weight: normal;
+    src: url("../fonts/airmojix-Regular-368a4dfb2060306905d934709d7356f8.woff2") format("woff2"), url("../fonts/airmojix-Regular-e0adf0d9735aee379296283c36fa3840.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+F0000-FFFFD;
+    font-weight: 600;
+    src: url("../fonts/airmojix-Regular-368a4dfb2060306905d934709d7356f8.woff2") format("woff2"), url("../fonts/airmojix-Regular-e0adf0d9735aee379296283c36fa3840.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    unicode-range: U+F0000-FFFFD;
+    font-weight: 800;
+    src: url("../fonts/airmojix-Regular-368a4dfb2060306905d934709d7356f8.woff2") format("woff2"), url("../fonts/airmojix-Regular-e0adf0d9735aee379296283c36fa3840.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"), url("../fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2") format("woff2"), url("../fonts/Airbnb_Cereal-Medium-4bc8dafd2e0fd8914bf4d5edce9acd24.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Circular;
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2") format("woff2"), url("../fonts/Airbnb_Cereal-Bold-a188841af78481a25b7bb2316a5f5716.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Airmoji_Standalone;
+    src: url("../fonts/airmojix-Regular-368a4dfb2060306905d934709d7356f8.woff2") format("woff2"), url("../fonts/airmojix-Regular-e0adf0d9735aee379296283c36fa3840.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: Airglyphs;
+    src: url("/airbnb/static/airbnb-o2/fonts/airglyphs-be20c9b0c13510b6107aebbce24dd022.woff") format("woff"), url("/airbnb/static/airbnb-o2/fonts/airglyphs-fc011caafdf66b9fee9518f73cf0a97d.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
 body{
-    font-family: 'Roboto Slab', serif;
-    line-height: 1.4;
-    font-size: 16px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    line-height: 1.43;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background: #f7f7f8;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 .layout{
     max-width:1244px;
@@ -88,9 +246,7 @@ body{
     display: inline-block;
     padding: 10px 30px;
 }
-.menu-list li:first-child{
-    margin-left: -20px;
-}
+
 .stamp-container{
     background: #e6e7e9;
 }
@@ -232,7 +388,7 @@ body{
 }
 .cat-container h3{
     line-height: 1.3;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     height: 60px;
     text-overflow: ellipsis;
@@ -242,8 +398,74 @@ body{
     font-size: 17px;
     display: block;
 }
+  .sliderContainer {
+    position: relative;
+  }
+  
+  .sliderContainer .slick-list{
+      overflow: hidden;
+  }
+  .slick-track .slick-slide{
+      float: left;
+  }
+  .slick-slide {
+    color: white;
+    padding: 0;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica";
+    text-align: center;
+    line-height: 1;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  
+  .progressBarContainer {
+    position: absolute;
+    bottom: 40px;
+    width:calc(100% - 40px);
+    left: 20px;
+    display:flex;
+  }
+  .slick-arrow{background: none;border:none;outline: none;position: absolute;top:50%;z-index: 1;cursor: pointer;}
+  .slick-arrow.slick-next{right:20px;}
+  .slick-arrow.slick-prev{left:20px;}
+  
+  .progressBarContainer div {
+    flex:1;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 5%;
+    float: left;
+    color: white;
+  }
+  
+  .progressBarContainer div:last-child {
+    margin-right: 0;
+  }
+  
+  .progressBarContainer div span.progressBar {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: block;
+  }
+  
+  .progressBarContainer div span.progressBar .inProgress {
+    background-color: rgba(255, 255, 255, 1);
+    width: 0%;
+    height: 4px;
+  }
 
 @media(min-width:768px){
+    .sliderContainer{margin-bottom: 20px;}
     .menu-list .menu-icon{display: none}
     .mobile-menu{display: flex;}
     .mobile-menu li{flex: none;}
@@ -261,9 +483,12 @@ body{
     .foot-sec{max-width:700px;margin-left: auto;margin-right:auto;margin-bottom:20px; padding-left:20px;padding-right:20px}
     .product-video-list{justify-content: center;}
     .cat-section{display: none;}
+    .menu-list li:first-child{
+        margin-left: -20px;
+    }
 }
 @media(max-width:767px){
-
+    .progressBarContainer{bottom:20px;}
     
     .layout{
         padding-left:15px;
@@ -305,9 +530,9 @@ body{
         width:100%;
         margin-top: 15px;
     }
-    .search-form input[type='text']{
+    /* .search-form input[type='text']{
         width: calc(100% - 60px); 
-    }
+    } */
     .search-form input[type='text']:focus{
         outline: none;
     }
@@ -346,5 +571,9 @@ body{
     .cat-section li{
         margin-bottom:15px;
         font-size:16px
+    }
+    .sliderContainer .layout{
+        padding-left:0px;
+        padding-right:0px;
     }
 }
