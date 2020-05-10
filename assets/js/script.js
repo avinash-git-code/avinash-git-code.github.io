@@ -14,19 +14,24 @@ $(document).ready(function(){
         }
     });
 
-    $('.cat-section h2').click(function(){
-        if($(this).hasClass('open')){
-            $('.cat-section h2').removeClass('open');
-            $('.fa-plus').show();
-            $('.fa-minus').hide();
-            $('.cat-section ul').slideUp();
-        }else{
-            $('.cat-section h2').addClass('open');
-            $('.fa-plus').hide();
-            $('.fa-minus').show();
-            $('.cat-section ul').slideDown();
-        }
+    $('.cat-option').click(function(){
+        $(this).next('ul').slideToggle();
+        // if($(this).hasClass('open')){
+        //     $('.cat-section h2').removeClass('open');
+        //     $('.fa-plus').show();
+        //     $('.fa-minus').hide();
+        //     $('.cat-section ul').slideUp();
+        // }else{
+        //     $('.cat-section h2').addClass('open');
+        //     $('.fa-plus').hide();
+        //     $('.fa-minus').show();
+        //     $('.cat-section ul').slideDown();
+        // }
     });
+
+    $('.all-video-link').click(function(){
+        $(this).parents('ul').addClass('show-row-wise');
+    })
 
     $(".slider").slick({
         infinite: true,
