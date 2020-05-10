@@ -504,7 +504,10 @@ div.product-ceo h3 {
   .slick-dots {
     bottom: -30px;
   }
-  
+ .rating-section, .rat-prod{
+      font-size:12px;
+  }
+
   
   .progressBarContainer {
     position: absolute;
