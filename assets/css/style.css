@@ -294,6 +294,28 @@ html {
 }
 .product-cont{
     margin-bottom: 20px;
+    
+}
+.product-image-list li{
+    position: relative;
+}
+.whatapp-link-for-prod{
+    position: absolute;
+    right:5px;
+    top: 8px;
+    color:#fff;
+    font-size: 15px;
+    z-index: 1;
+}
+.prod-offer{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    color:#fff;
+    font-size: 9px;
+    left:5px;
+    top: 11px;
+    padding: 2px 4px;
 }
 .product-cont h4{
     font-size: 24px;
