@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://d220lq6zcuj7hx.cloudfront.net/wp-content/uploads/2015/03/whatsapp.png" />
+    <meta property="og:image:secure_url" content="https://d220lq6zcuj7hx.cloudfront.net/wp-content/uploads/2015/03/whatsapp.png" />
+    <meta property="og:image:width" content="626" />
+    <meta property="og:image:height" content="347" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+
+<!-- <meta property="og:locale" content="nl_NL" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Overkapping Breda" />
+<meta property="og:description" content="Overkapping Breda is het juiste adres voor een Douglas overkapping. Onze houten overkappingen worden naar uw wens op maat gemaakt." />
+<meta property="og:url" content="https://overkappingbreda.nl/" />
+<meta property="og:site_name" content="Overkapping Breda" />
+<meta property="og:image" content="https://overkappingbreda.nl/wp-content/uploads/2019/03/DSC_5818_340x340.jpg" />
+<meta property="og:image:secure_url" content="https://overkappingbreda.nl/wp-content/uploads/2019/03/DSC_5818_340x340.jpg" />
+<meta property="og:image:width" content="340" />
+<meta property="og:image:height" content="340" /> -->
     <title>jiscovery</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -58,11 +75,12 @@
         <!-- slider section -->
         <div class="sliderContainer">
             <div class="layout">
-                <div class="slider single-item">
+                <div class="slider single-item desktop-slider-image">
                     <div><img src="assets/images/slider1.jpg" alt=""></div>
                     <div><img src="assets/images/slider2.jpeg" alt=""></div>
                     <div><img src="assets/images/slider3.jpeg" alt=""></div>
                     <div><img src="assets/images/slider4.jpeg" alt=""></div>
+                    <div><img src="assets/images/slider1.jpg" alt=""></div>
                     <!-- <div>
                         <iframe class="embed-player slide-media" src="https://player.vimeo.com/video/217885864?api=1&byline=0&portrait=0&title=0&background=1&mute=1&loop=1&autoplay=0&id=217885864" width="455" height="683" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div> -->
@@ -144,18 +162,20 @@
         <!-- Product ceo section -->
         <div class="product-ceo">
             <div class="layout">
-                <div class="img-cir">
-                    <img src="assets/images/Saanjh-oil-founders.jpg" alt="">
-                </div>
-                <h3>Sarika and Shriyansh Agrawal, Founders, Saanjh</h3>
-                <p>
-                    We are founders of Delhi-based wellness brand
-                    Sarika Ventures Pvt. Ltd. It was started with the mission
-                    to go back to our roots to produce
-                </p>
-                <div class="ceo-social">
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-instagram"></i></a>
+                <div class="ceo-layout">
+                    <div class="img-cir">
+                        <img src="assets/images/Saanjh-oil-founders.jpg" alt="">
+                    </div>
+                    <h3>Sarika and Shriyansh Agrawal, Founders, Saanjh</h3>
+                    <p>
+                        We are founders of Delhi-based wellness brand
+                        Sarika Ventures Pvt. Ltd. It was started with the mission
+                        to go back to our roots to produce
+                    </p>
+                    <div class="ceo-social">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -197,14 +217,16 @@
             <!-- product image -->
             <div class="layout product-cont last-prod-sec">
                 <h4>OIL</h4>
+                <h1>https://w3lessons.info/demo/whatsapp-share-jquery/</h1>
                 <h3>Extra-virgin, cold pressed and unrefined oil</h3>
                 <ul class="product-video-list product-image-list prod-cat-list">
                     <li>
-                        <a href="javascript:void(0);">
+                        <a data-text="Your message goes here.." data-link="http://192.168.1.4:3000" class="whatsapp w3_whatsapp_btn w3_whatsapp_btn_large">
+                        <!-- <a href="whatsapp://send?text=" title="Share On Whatsapp" onclick="window.open('whatsapp://send?text=%20Take%20a%20look%20at%20this%20awesome%20page%20-%20' + encodeURIComponent(document.URL)); return false;" data-text="test data" data-link="assets/images/prod-image1.jpeg"> -->
                             <figure>
-                                <img src="assets/images/prod-image1.jpeg" alt="">
+                                <img src="assets/images/prod-image1.jpeg" alt="" >
                                 <span class="prod-offer">
-                                    CLICK FOR OFFER
+                                    CLICK FOR OFFER fff
                                 </span>
                                 
                             </figure>
@@ -344,7 +366,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">
+                        <a href="javascript:void(0);" class="prod-cat-all-list">
                             All product link <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
